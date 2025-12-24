@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <title>Y.W Works</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="ポートフォリオサイト">
+    <meta name="keywords" content="VBA,Python,プログラマ,エンジニア,コード,ポートフォリオ">
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+
+<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y24BD0K2VY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-Y24BD0K2VY');
+    </script>
+
+<!--本体-->
+    <div id="root"></div>
+    <script type="module" src="/src/index.jsx"></script>
+
+<!--フェード-->
+    <script>
+      const skill = document.querySelector(".skill");
+      if (skill) {
+        skill.animate(
+          [
+            { opacity: 0 },
+            { opacity: 1 }
+          ],
+          {
+            duration: 3000,
+            fill: "forwards"
+          }
+        )
+      }
+    </script>
+
+<!--ローディング--> 
+    <script>
+      window.onload = function() {
+        setTimeout(() => {
+          const loading = document.querySelector(".loading")
+          loading.classList.add("loaded")
+
+          const slideh = document.querySelector(".slideh")
+          slideh.style.transform="translateY(0)";
+
+          const slideb = document.querySelector(".slideb")
+          slideb.style.transform="translateY(0)";
+        }, 1600)
+      };
+    </script>
+
+<!--スライドイン-->
+
+  </body>
+</html>
+
