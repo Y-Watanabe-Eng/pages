@@ -55,14 +55,14 @@ const tooltipContent = {
                 <p className='text-base pb-4'>・AIX：実務1年8ヶ月</p>
                 <p className='text-base pb-4'>・WindowsServer：実務1年8ヶ月</p>
                 <p className='text-base pb-4'>・Ubuntu：1年</p>
-            <p className='text-xl pl-4'>Network</p><br/>
+            <p className='text-xl pl-4'>ネットワーク</p><br/>
                 <p className='text-base pb-4'>・Cisco：実務1年8ヶ月</p>
                 <p className='text-base pb-4'>・F5 BIG-IP：実務1年8ヶ月</p>
-            <p className='text-xl pl-4'>Middleware</p><br/>
+            <p className='text-xl pl-4'>ミドルウェア</p><br/>
                 <p className='text-base pb-4'>・JP1：実務1年8ヶ月</p>
                 <p className='text-base pb-4'>・WAS：実務1年8ヶ月</p>
                 <p className='text-base pb-4'>・HULFT:実務3か月</p>
-            <p className='text-xl pl-4'>Cloud</p><br/>
+            <p className='text-xl pl-4'>クラウド</p><br/>
                 <p className='text-base pb-4'>・AWS：6か月</p>
             </div>
             <h2 className='text-xl sm:text-2xl pt-6'>技術スタック（アプリ）</h2>
