@@ -61,7 +61,7 @@ const tooltipContent = {
             <p className='text-xl pl-4'>ミドルウェア</p><br/>
                 <p className='text-base pb-4'>・JP1：実務1年8ヶ月</p>
                 <p className='text-base pb-4'>・WAS：実務1年8ヶ月</p>
-                <p className='text-base pb-4'>・HULFT:実務3か月</p>
+                <p className='text-base pb-4'>・HULFT：実務3か月</p>
             <p className='text-xl pl-4'>クラウド</p><br/>
                 <p className='text-base pb-4'>・AWS：6か月</p>
             </div>
