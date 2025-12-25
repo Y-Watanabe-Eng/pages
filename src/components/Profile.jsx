@@ -18,7 +18,7 @@ export const Profile = () => {
             <div>
                 <p className='text-base'>初めてITというものに触れたのは20歳頃に組んでいたバンドのHPを<br/>
                 作るところからだったと思います。</p><br/>
-                <p className='text-base'> 業務ではAIX、Linuxを中心としたサーバ群や各種ネットワーク機器に関わり、直接的にはBigIPやHULFTといった製品の設定に触れることが多いです。</p><br/>
+                <p className='text-base'> 業務ではAIX OSを中心としたサーバ群や各種ネットワーク機器に関わり、設計構築、運用保守に携わっています。直接的にはCiscoのL3SW/L2SWBigIPといった製品の設定に触れることが多いです。</p><br/>
                 <p>独学ではPython、JavaScript(React.js)等を学習。<br/>
                 クラウド上でWEBアプリを動かしてみることを主軸に、業務効率化系のアプリ作成等を試行錯誤しながら試しています。</p><br/>
                 <p className='text-base'>音楽と買い物、あとYoutubeが娯楽です。</p>
