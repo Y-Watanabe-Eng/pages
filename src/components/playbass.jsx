@@ -1,22 +1,21 @@
 import '../style.css'
-import kempichan_antenna from "/img/kempichan_antenna.png"
 import { motion } from "motion/react";
 
 
-export const Kempichan = () => {
+export const playbass = () => {
   return (
     <motion.div className='detail'
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{ duration: 0.6, delay: 0.4 }}
     >
-      <h2 className='text-2xl sm:text-4xl'>けんぴ。ちゃんてな</h2>
+      <h2 className='text-2xl sm:text-4xl'>YouTube動画一覧</h2>
       <div>
         <div className="grid sm:grid-cols-2 py-10 detail-body">
 
           <div>
             <p className='text-xl'>サイト内容</p><br />
-            <p>・謎解き製作者兼、配信者のけんぴ。さんの
+            <p>・私がベースを弾いている
             <br/>　Youtube動画一覧</p><br />
 
             <p className='text-xl'>実装環境</p><br />
@@ -55,9 +54,6 @@ export const Kempichan = () => {
             <br />
           </div>
 
-          <div className='pt-10'>
-            <img className='rounded mb-10'src={kempichan_antenna} alt="kempichan_antenna" />
-          </div>
         </div>
       </div>
     </motion.div>
