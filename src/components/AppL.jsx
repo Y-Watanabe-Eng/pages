@@ -12,8 +12,10 @@ export const AppL = () => {
       </div>
 
       <div className='appLR'>
-        <img src={aws_infra} alt="aws_infra" href="https://github.com/Y-Watanabe-Eng/aws_infra/"
+        <a href="https://github.com/Y-Watanabe-Eng/aws_infra/"
           target='_blanc'>
+          <img src={aws_infra} alt="aws_infra">
+        </a>
       </div>
 
       <div className='appLR'>
