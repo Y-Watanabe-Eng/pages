@@ -14,7 +14,7 @@ export const AppL = () => {
       <div className='appLR'>
         <a href="https://github.com/Y-Watanabe-Eng/aws_infra/"
           target='_blanc'>
-          <img src={aws_infra} alt="aws_infra">
+          <img src={aws_infra} alt="aws_infra"/>
         </a>
       </div>
 
